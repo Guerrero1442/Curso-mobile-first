@@ -129,7 +129,8 @@ main .main-exchange-container p {
     line-height: 1.6rem;
     color: #757575;
 }
-main .main-currency-table {
+main .main-currency-table,
+.main-commissions-table {
     width: 70%;
     min-width: 235px;
     max-width: 500px;
@@ -144,18 +145,28 @@ main .main-currency-table .currency-table--title {
     line-height: 2.3rem;
     color: var(--bitcoin-orange);
 }
-main .currency-table--container {
+main .main-commissions-table .commissions-table--title {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--secondary-blue);
+}
+main .currency-table--container,
+.commissions-table--container {
     width: 90%;
     min-width: 230px;
     max-width: 300px;
     height: 250px;
     margin: 0 auto;
 }
-main .currency-table--container table {
+main .currency-table--container table,
+.commissions-table--container table {
     width: 100%;
     height: 100%;
 }
-main .currency-table--container td {
+main .currency-table--container td,
+.commissions-table--container {
     width: 50%;
     font-size: 1.6rem;
     font-weight: 500;
@@ -186,7 +197,14 @@ main .currency-table--container .down {
     width: 15px;
     height: 15px;
     margin-left: 10px;
-    background: url("./Assets/icons/trending-down.svg") center/cover no-repeat;
+    background: url("./Assets/icons/trending-down\ 1.svg") center/cover no-repeat;
+}
+main .currency-table--container .up {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    background: url("./Assets/icons/trending-up\ 1.svg") center/cover no-repeat;
 }
 main .currency-table--date {
     width: 190px;
@@ -197,7 +215,22 @@ main .currency-table--date {
     background-color: var(--soft-orange);
     border-radius: 8px;
 }
+main .commissions-table--date {
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--soft-blue);
+    border-radius: 8px;
+}
 main .currency-table--date p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+    color: var(--warm-black);
+}
+main .commissions-table--date p {
     font-size: 1.2rem;
     line-height: 1.5rem;
     font-weight: 300;
