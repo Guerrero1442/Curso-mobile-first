@@ -278,7 +278,7 @@ main .product-detail--card {
     width: 90%;
     min-width: 288px;
     max-width: 400px;
-    height: 150px;
+    min-height: 150px;
     margin: 15px auto;
     padding: 15px;
     background-color: var(--black);
@@ -289,7 +289,7 @@ main .product-detail--card .icon-card {
     display: inline-block;
     width: 20px;
     height: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 main .product-detail--card .clock {
     background: url("./Assets/icons/clock.svg") center/cover no-repeat;
@@ -304,7 +304,7 @@ main .product-detail--card .circle {
     background: url("./Assets/icons/check-circle.svg") center/cover no-repeat;
 }
 main .product--card-title {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 1.8;
@@ -315,4 +315,18 @@ main .product--card-body {
     font-weight: 500;
     line-height: 1.8rem;
     color: #808080;
+}
+main .bitcoin-img-container {
+    width: 100%;
+    min-width: 320px;
+    height: 60vh;
+    text-align: center;
+    background: url("./Assets/imgs/bitcoinbabyx2.jpg") center/cover no-repeat;
+}
+main .bitcoin-img-container h2 {
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
 }
