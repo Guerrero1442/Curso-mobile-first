@@ -267,8 +267,50 @@ main .product-detail--title h2 {
     line-height: 2.6rem;
     color: var(--just-white);
 }
-.product-detail--title p {
+main .product-detail--title p {
     margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+main .product-detail--card {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--black);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+main .product-detail--card .icon-card {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+main .product-detail--card .clock {
+    background: url("./Assets/icons/clock.svg") center/cover no-repeat;
+}
+main .product-detail--card .eye {
+    background: url("./Assets/icons/eye.svg") center/cover no-repeat;
+}
+main .product-detail--card .dollar {
+    background: url("./Assets/icons/dollar-sign.svg") center/cover no-repeat;
+}
+main .product-detail--card .circle {
+    background: url("./Assets/icons/check-circle.svg") center/cover no-repeat;
+}
+main .product--card-title {
+    margin-bottom: 5px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8;
+    color: var(--just-white);
+}
+main .product--card-body {
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
